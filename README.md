@@ -15,7 +15,7 @@ This project was developed as part of the **API / Back-End Developer Intern assi
 - **Validation:** class-validator
 - **Testing:** Jest
 - **API Client:** Postman
-- **Deployment (Planned):** Railway / Render
+- **Deployment (Planned):** Supabase / Render
 
 ---
 
