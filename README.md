@@ -22,6 +22,7 @@ This project was developed as part of the **API / Back-End Developer Intern assi
 ## 📌 Features Overview
 
 ### Core Capabilities
+
 - Vendor management (CRUD)
 - Purchase order creation with items
 - Payment recording with business rules
@@ -34,6 +35,7 @@ This project was developed as part of the **API / Back-End Developer Intern assi
 ## ⚙️ Setup Instructions
 
 ### Prerequisites
+
 - Node.js (v18+ recommended)
 - PostgreSQL
 - npm
@@ -55,21 +57,21 @@ DB_USERNAME=postgres
 DB_PASSWORD=your_password
 DB_NAME=vendor_db
 
+Vendor APIs
+ ├─ Create Vendor
+ ├─ Get Vendors
+ ├─ Get Vendor by ID
+ └─ Update Vendor
 
-## Database Schema
-(paste Database Schema section here)
+Purchase Orders
+ ├─ Create PO (with items)
+ ├─ Get All POs
+ ├─ Get PO by ID
+ └─ Update PO Status
 
-## Implemented Features
-(paste Implemented + Pending Features here)
-
-## API Endpoints
-(paste API Endpoints Summary here)
-
-## Testing the API
-(paste Testing section here)
-
-## Key Design Decisions
-(paste Design Decisions here)
-
-## Time Breakdown
-(paste Time Breakdown here)
+Payments
+ ├─ Create Partial Payment
+ ├─ Create Final Payment
+ ├─ Get All Payments
+ └─ Get Payment by ID
+```
